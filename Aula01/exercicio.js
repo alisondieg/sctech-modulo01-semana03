@@ -1,10 +1,14 @@
 const prompt = require('prompt-sync')();
 
+
+console.log("CONTAGEM REGRESSIVA")
 for (let exercicio = 5; exercicio > 0; exercicio--) {
   console.log(exercicio);
 }
 console.log("Já");
 
+
+console.log("SOMA DOS NÚMEROS")
 let soma = 0;
 let numero = 1;
 while (numero <= 10) {
@@ -13,6 +17,8 @@ while (numero <= 10) {
 }
 console.log("Dá " + soma);
 
+
+console.log("ADIVINHE O NÚMERO")
 const numeroSecreto = 7;
 let palpite;
 while (palpite != numeroSecreto) {
