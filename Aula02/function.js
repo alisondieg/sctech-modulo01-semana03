@@ -1,15 +1,8 @@
 //O function cria uma função para ser chamada posteriormente no código
+const prompt = require("prompt-sync")();
 
-
-function saudacao() {
-    console.log("Hello world!");
+function criarPerfil(nome, sobrenome, cpf, email, cidade = "Não informada"){
+    console.log("None: " + nome + "Sobrenome: "+ sobrenome + "CPF: " + cpf + "Email: " + email + "Cidade: " + cidade)
 }
 
-saudacao();
-
-
-function soma(a, b) {
-    return a + b;
-}
-
-console.log(soma(5, 3));
+criarPerfil("Alison ", "Cordeiro ", "008.493.189-20 ", "alison.diego01@gmail.com ");
