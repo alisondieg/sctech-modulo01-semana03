@@ -11,4 +11,4 @@ function calcularPrecoFinal(preco, percentual) {
 }
 
 let precoFinal = calcularPrecoFinal(precoOriginal, percentualDesconto);
-console.log("Voce vai pagar " + precoFinal);
+console.log("Você vai pagar " + precoFinal);
